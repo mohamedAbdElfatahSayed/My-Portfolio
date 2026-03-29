@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Mohamed Abdelfatah is a Full Stack Developer in Egypt specializing in Next.js, React, Prisma, and PostgreSQL. Building fast and scalable web applications.",
+    "Mohamed Abdelfatah is a Full Stack Developer in Egypt specializing in Next.js, React, Prisma, and PostgreSQL. Building fast and scalable web applications Showcase of web development projects built with modern technologies.",
 
  keywords: [
   "Mohamed Abdelfatah",
