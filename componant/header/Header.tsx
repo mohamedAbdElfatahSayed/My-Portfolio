@@ -61,8 +61,8 @@ export default function Header() {
   </motion.div>
 
   {/* Brand Name */}
-  <span className="hidden sm:block relative text-white font-bold text-xl tracking-wide group-hover:tracking-wider transition-all duration-300">
-    M Abd Elfatah
+  <span className="hidden uppercase sm:block relative text-white font-bold text-xl tracking-wide group-hover:tracking-wider transition-all duration-300">
+    M Abd El fatah
   </span>
 
   {/* Hover underline glow */}
