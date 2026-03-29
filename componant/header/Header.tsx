@@ -12,6 +12,7 @@ const links = [
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
   { name: "Projects", href: "/projects" },
+  { name: "Serivces", href: "/serivces" },
   { name: "Knowledge", href: "/knowledge" },
 ];
 
@@ -63,7 +64,7 @@ export default function Header() {
             />
           </motion.div>
 
-          <span className="hidden sm:block text-white font-bold text-xl tracking-wide">
+          <span className="hidden lg:block text-white font-bold text-xl tracking-wide">
             M Abd El fatah
           </span>
         </Link>
