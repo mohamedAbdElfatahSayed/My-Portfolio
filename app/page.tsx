@@ -1,3 +1,4 @@
+import profileImg from "@/public/mohamed1.png";
 import Image from "next/image";
 import Link from "next/link";
 import { Github, Linkedin } from "lucide-react";
@@ -87,13 +88,12 @@ const Hero = () => {
 
             {/* ✅ صورة محسّنة SEO + Performance */}
 <Image
-  src="/mohamed1.png"
+  src={profileImg}
   alt="Mohamed Abdelfatah Full Stack Developer Portfolio"
   fill
   priority
   sizes="(max-width: 768px) 100vw, 400px"
   placeholder="blur"
-  blurDataURL="/mohamed1.png"
   className="rounded-full object-cover border-4 border-gray-800"
 />          </div>
         </div>
