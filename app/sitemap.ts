@@ -1,32 +1,22 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://yourwebsite.com";
-
   return [
     {
-      url: baseUrl,
+      url: "https://mohamedabdelfatah.vercel.app",
       lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
     },
     {
-      url: `${baseUrl}/about`,
+      url: "https://mohamedabdelfatah.vercel.app/projects",
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
     },
     {
-      url: `${baseUrl}/projects`,
+      url: "https://mohamedabdelfatah.vercel.app/about",
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: "https://mohamedabdelfatah.vercel.app/contact",
       lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.7,
     },
   ];
 }

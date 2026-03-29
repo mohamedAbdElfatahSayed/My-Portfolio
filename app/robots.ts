@@ -6,9 +6,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/admin", "/api"],
       },
     ],
-    sitemap: "https://fatah.vercel.app/sitemap.xml",
+    sitemap: "https://mohamedabdelfatah.vercel.app/sitemap.xml",
   };
 }
