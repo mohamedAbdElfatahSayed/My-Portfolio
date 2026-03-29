@@ -50,11 +50,11 @@ export const metadata: Metadata = {
   title: "Mohamed Abdelfatah | Full Stack Developer",
   description:
     "Full Stack Developer specializing in Next.js, React, Prisma, and scalable web applications.",
-  url: "https://fatah.vercel.app/",
-  siteName: "Mohamed Abdelfatah Portfolio",
+  url: "https://mohamedabdelfatah.vercel.app",
+   siteName: "Mohamed Abdelfatah Portfolio",
   images: [
     {
-      url: "https://fatah.vercel.app/preview.png",
+      url: "https://mohamedabdelfatah.vercel.app/preview.png",
       width: 1200,
       height: 630,
       alt: "Mohamed Abdelfatah Portfolio Preview",
