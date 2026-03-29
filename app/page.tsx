@@ -22,8 +22,8 @@ const Hero = () => {
           {/* 🔥 SEO H1 */}
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Full Stack Developer
-            <span className="block uppercase text-4xl text-blue-400 mt-2">
-              Mohamed Abd El fattah
+            <span className="block  text-4xl text-blue-400 mt-2">
+              Mohamed Abd El fatah
             </span>
 
             <span className="block text-xl md:text-2xl mt-4 text-gray-300 leading-relaxed">
