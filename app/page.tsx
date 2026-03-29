@@ -20,10 +20,10 @@ const Hero = () => {
         <div>
 
           {/* 🔥 SEO H1 */}
-          <h1 className="text-4xl md:text-3xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Full Stack Developer
-            <span className="block uppercase text-blue-400 mt-2">
-              Mohamed ABD El FATTAH
+            <span className="block uppercase text-4xl text-blue-400 mt-2">
+              Mohamed Abd El fattah
             </span>
 
             <span className="block text-xl md:text-2xl mt-4 text-gray-300 leading-relaxed">
