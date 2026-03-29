@@ -86,15 +86,16 @@ const Hero = () => {
             ></div>
 
             {/* ✅ صورة محسّنة SEO + Performance */}
-            <Image
-              src="/mohamed1.png"
-              alt="Mohamed Abdelfatah Full Stack Developer Portfolio"
-              fill
-              priority
-              sizes="(max-width: 768px) 100vw, 400px"
-              className="rounded-full object-cover border-4 border-gray-800"
-            />
-          </div>
+<Image
+  src="/mohamed1.png"
+  alt="Mohamed Abdelfatah Full Stack Developer Portfolio"
+  fill
+  priority
+  sizes="(max-width: 768px) 100vw, 400px"
+  placeholder="blur"
+  blurDataURL="/mohamed1.png"
+  className="rounded-full object-cover border-4 border-gray-800"
+/>          </div>
         </div>
 
       </div>

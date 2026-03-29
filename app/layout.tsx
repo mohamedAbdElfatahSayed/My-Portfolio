@@ -90,6 +90,27 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0f172a]`}
       >
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Mohamed Abdelfatah",
+      url: "https://mohamedabdelfatah.vercel.app",
+      jobTitle: "Full Stack Developer",
+      image: "https://fatah.vercel.app/preview.png",
+      address: {
+        "@type": "Country",
+        name: "Egypt",
+      },
+      sameAs: [
+        "https://github.com/mohamedAbdElfatahSayed",
+        "https://www.linkedin.com/in/mohamed-abd-elfatah-20985528b/",
+      ],
+    }),
+  }}
+/>
         <Header />
         <main>{children}</main>
       </body>
