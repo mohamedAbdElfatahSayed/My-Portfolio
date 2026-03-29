@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://mohamedabdelfatah.vercel.app/sitemap.xml",
+    sitemap: "https://mohamedabdelfatah.vercel.app/robots.txt",
   };
 }

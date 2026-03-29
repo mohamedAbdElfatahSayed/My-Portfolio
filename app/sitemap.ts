@@ -11,6 +11,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://mohamedabdelfatah.vercel.app/sitemap.xml",
+      lastModified: new Date(),
+    },
+    {
       url: "https://mohamedabdelfatah.vercel.app/about",
       lastModified: new Date(),
     },
