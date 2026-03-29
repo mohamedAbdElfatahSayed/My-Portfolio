@@ -35,7 +35,7 @@ export default function Loading() {
       new THREE.SphereGeometry(5, 64, 64),
       new THREE.MeshStandardMaterial({
         map: loader.load(
-          "https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg"
+          "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/mars_1k_color.jpg"
         ),
       })
     );
