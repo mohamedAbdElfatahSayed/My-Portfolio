@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Full Stack Developer
             <span className="block text-blue-400 mt-2">
-              Mohamed Abd Elfatah
+              Mohamed Abd El fatah
             </span>
 
             <span className="block text-xl md:text-2xl mt-4 text-gray-300 leading-relaxed">
