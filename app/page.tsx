@@ -98,7 +98,7 @@ const Hero = () => {
             {/* Image */}
             <Image
               src={profileImg}
-              alt="Mohamed Abdelfatah - Full Stack Developer portrait"
+              alt="Mohamed Abdelfatah - Full Stack Developer portrait Mohamed Abdelfatah Frontend Developer"
               fill
               priority
               quality={90}
