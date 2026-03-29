@@ -19,11 +19,15 @@ const Hero = () => {
         {/* Left Content */}
         <div>
           {/* ✅ H1 قوي بكلمات مفتاحية */}
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Mohamed Abdelfatah{" "}
-            <span className="block text-xl md:text-2xl mt-2 text-gray-300">
-              Full Stack Developer | Next.js, React, Prisma, PostgreSQL
-            </span>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            Mohamed Abd Elfatah{" "}
+            <span className="block text-xl md:text-2xl mt-2 text-gray-300 leading-relaxed">
+  Full Stack Developer focused on crafting scalable, SEO-friendly, and user-centric applications.
+  
+  <span className="block mt-2 text-gray-400 text-lg">
+    Next.js • React • TypeScript • Prisma • PostgreSQL • Clean Architecture • Performance Optimization
+  </span>
+</span>
           </h1>
 
           {/* ✅ وصف غني بالكلمات المفتاحية */}
